@@ -1,147 +1,159 @@
-<main class="page">
-	<section class="card">
-		<p class="eyebrow">Software Engineer • Kenya</p>
-		<h1>Geoffrey Nyaga</h1>
-		<p class="intro">
-			I build practical software products across AI, drones, geospatial systems, and web/mobile
-			platforms. My work focuses on useful technology for real African operating environments.
-		</p>
+---
+// Modern portfolio component - Tailwind CSS version
+---
 
-		<div class="grid">
-			<section class="section">
-				<h2>Current Focus</h2>
-				<ul>
-					<li>Full-stack product engineering with Django, React, and React Native.</li>
-					<li>Drone and geospatial platforms for operations, analytics, and decision support.</li>
-					<li>Applied AI for domain workflows and image-driven insights.</li>
-				</ul>
-			</section>
-
-			<section class="section">
-				<h2>Recent GitHub Updates</h2>
-				<ul>
-					<li><a href="https://github.com/geoffreynyaga/multipass-run" target="_blank" rel="noreferrer">multipass-run</a> — TypeScript tooling.</li>
-					<li><a href="https://github.com/geoffreynyaga/kjet" target="_blank" rel="noreferrer">kjet</a> — Python project in active iteration.</li>
-					<li><a href="https://github.com/geoffreynyaga/Yiakunte" target="_blank" rel="noreferrer">Yiakunte</a> — cultural preservation app.</li>
-					<li><a href="https://github.com/geoffreynyaga/Kenya-One-Project" target="_blank" rel="noreferrer">Kenya-One-Project</a> — aircraft conceptual design software.</li>
-				</ul>
-			</section>
-
-			<section class="section">
-				<h2>Selected Work</h2>
-				<ul>
-					<li><strong>KTDA</strong> — bursary system for major tea farmer groups in Kenya.</li>
-					<li><strong>ANGA-UTM</strong> — drone traffic management implementation.</li>
-					<li><strong>Precision Drone Data</strong> — AI-assisted drone imagery analysis.</li>
-				</ul>
-			</section>
-
-			<section class="section">
-				<h2>Core Stack</h2>
-				<p>Python, Django, GeoDjango, TypeScript, React, React Native (Expo).</p>
-			</section>
+<main class="font-sans text-black bg-white">
+	<!-- Header -->
+	<header class="sticky top-0 bg-white/80 backdrop-blur-xl border-b border-gray-200 z-50">
+		<div class="max-w-6xl mx-auto px-8 py-4 flex justify-between items-center">
+			<span class="font-bold text-xl">GN</span>
+			<nav class="hidden sm:flex gap-8">
+				<a href="#about" class="text-gray-600 text-sm font-medium hover:text-black transition-colors">About</a>
+				<a href="#work" class="text-gray-600 text-sm font-medium hover:text-black transition-colors">Work</a>
+				<a href="#projects" class="text-gray-600 text-sm font-medium hover:text-black transition-colors">Projects</a>
+				<a href="https://www.youtube.com/channel/UCmGMFufi9groUEokVw9XGJg" target="_blank" rel="noreferrer" class="text-gray-600 text-sm font-medium hover:text-black transition-colors">YouTube</a>
+			</nav>
 		</div>
+	</header>
 
-		<nav class="links" aria-label="Social links">
-			<a href="https://geoffreynyaga.com" target="_blank" rel="noreferrer">Website</a>
-			<a href="https://github.com/geoffreynyaga" target="_blank" rel="noreferrer">GitHub</a>
-			<a href="https://linkedin.com/in/geoffreynyaga" target="_blank" rel="noreferrer">LinkedIn</a>
-			<a href="https://twitter.com/geoffreynyaga" target="_blank" rel="noreferrer">X/Twitter</a>
-		</nav>
+	<!-- Hero -->
+	<section class="bg-gray-50 px-8 py-24 sm:py-28">
+		<div class="max-w-3xl mx-auto">
+			<span class="inline-block text-xs font-medium text-gray-500 mb-6 px-3 py-1.5 bg-white border border-gray-200 rounded-full">Based in Kenya</span>
+			<h1 class="font-serif text-4xl sm:text-5xl font-semibold leading-tight mb-4 tracking-tight">Geoffrey Nyaga</h1>
+			<p class="text-lg text-gray-600 font-medium mb-6">Aeronautical Engineer, Software Developer, Technical Author, YouTuber</p>
+			<p class="text-lg text-gray-600 leading-relaxed mb-8 max-w-xl">
+				Building practical software for AI, drones, and geospatial systems. Creating technology that works in real African operating environments.
+			</p>
+			<div class="flex flex-col sm:flex-row gap-4">
+				<a href="https://github.com/geoffreynyaga" target="_blank" rel="noreferrer" class="inline-flex items-center justify-center px-6 py-3 bg-black text-white font-semibold text-sm rounded-lg hover:bg-gray-800 transition-colors">GitHub</a>
+				<a href="https://www.youtube.com/channel/UCmGMFufi9groUEokVw9XGJg" target="_blank" rel="noreferrer" class="inline-flex items-center justify-center px-6 py-3 bg-white text-black font-semibold text-sm rounded-lg border border-gray-200 hover:border-gray-400 transition-colors">YouTube</a>
+			</div>
+		</div>
 	</section>
+
+	<!-- About -->
+	<section id="about" class="px-8 py-20">
+		<div class="max-w-6xl mx-auto">
+			<h2 class="font-serif text-3xl font-semibold mb-10 tracking-tight">About</h2>
+			<div class="grid md:grid-cols-2 gap-16">
+				<div class="space-y-4">
+					<p class="text-gray-600 leading-relaxed">I'm a software engineer with a background in aeronautical engineering, AI, and geospatial tech. I focus on building full-stack products and technology for real-world African challenges.</p>
+					<p class="text-gray-600 leading-relaxed">When I'm not coding, I'm organizing tech events, creating content on YouTube, and contributing to open source communities.</p>
+				</div>
+				<div class="space-y-6">
+					<div>
+						<span class="block text-xs font-semibold uppercase tracking-wide text-gray-400 mb-1">Stack</span>
+						<span class="text-sm text-black">Python, Django, TypeScript, React, React Native</span>
+					</div>
+					<div>
+						<span class="block text-xs font-semibold uppercase tracking-wide text-gray-400 mb-1">Focus</span>
+						<span class="text-sm text-black">AI, Geospatial, Drone Systems, Full-stack</span>
+					</div>
+					<div>
+						<span class="block text-xs font-semibold uppercase tracking-wide text-gray-400 mb-1">Community</span>
+						<span class="text-sm text-black">DjangoCon Africa, Ubucon Africa, Ubucon Kenya</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Selected Work -->
+	<section id="work" class="bg-gray-50 px-8 py-20">
+		<div class="max-w-6xl mx-auto">
+			<h2 class="font-serif text-3xl font-semibold mb-10 tracking-tight">Selected Work</h2>
+			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+				<article class="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-400 transition-colors">
+					<span class="text-xs font-semibold uppercase tracking-wide text-green mb-4 block">Enterprise</span>
+					<h3 class="text-lg font-semibold mb-3">KTDA Bursary System</h3>
+					<p class="text-sm text-gray-600 leading-relaxed mb-5">Digital bursary management for Kenya's largest tea cooperative, serving thousands of farmer families.</p>
+					<span class="text-xs text-gray-400">Django, GeoDjango, PostgreSQL</span>
+				</article>
+				<article class="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-400 transition-colors">
+					<span class="text-xs font-semibold uppercase tracking-wide text-green mb-4 block">Aviation</span>
+					<h3 class="text-lg font-semibold mb-3">Anga-UTM</h3>
+					<p class="text-sm text-gray-600 leading-relaxed mb-5">Unmanned Traffic Management system for drone operations, enabling safe integration into national airspace.</p>
+					<span class="text-xs text-gray-400">Full-stack, Geospatial APIs</span>
+				</article>
+				<article class="bg-white p-8 rounded-xl border border-gray-200 hover:border-gray-400 transition-colors">
+					<span class="text-xs font-semibold uppercase tracking-wide text-green mb-4 block">AI</span>
+					<h3 class="text-lg font-semibold mb-3">Precision Drone Data</h3>
+					<p class="text-sm text-gray-600 leading-relaxed mb-5">AI-driven analysis platform for drone imagery, powering agricultural and infrastructure insights.</p>
+					<span class="text-xs text-gray-400">Python, TensorFlow, Computer Vision</span>
+				</article>
+			</div>
+		</div>
+	</section>
+
+	<!-- Projects -->
+	<section id="projects" class="px-8 py-20">
+		<div class="max-w-6xl mx-auto">
+			<h2 class="font-serif text-3xl font-semibold mb-10 tracking-tight">Projects</h2>
+			<div class="flex flex-col">
+				<a href="https://github.com/geoffreynyaga/Yiakunte" target="_blank" rel="noreferrer" class="grid grid-cols-1 md:grid-cols-[150px_1fr_120px] gap-1 md:gap-8 py-5 border-b border-gray-200 hover:bg-gray-50 md:-mx-4 md:px-4 transition-colors">
+					<span class="font-semibold text-black">Yiakunte</span>
+					<span class="text-sm text-gray-600">Cultural heritage preservation app for endangered Kenyan languages</span>
+					<span class="text-xs text-gray-400 md:text-right">Python, Django</span>
+				</a>
+				<a href="https://github.com/geoffreynyaga/Kenya-One-Project" target="_blank" rel="noreferrer" class="grid grid-cols-1 md:grid-cols-[150px_1fr_120px] gap-1 md:gap-8 py-5 border-b border-gray-200 hover:bg-gray-50 md:-mx-4 md:px-4 transition-colors">
+					<span class="font-semibold text-black">Kenya-One</span>
+					<span class="text-sm text-gray-600">Aircraft conceptual design software for aerospace engineering</span>
+					<span class="text-xs text-gray-400 md:text-right">Aeronautical Eng</span>
+				</a>
+				<div class="grid grid-cols-1 md:grid-cols-[150px_1fr_120px] gap-1 md:gap-8 py-5 border-b border-gray-200">
+					<span class="font-semibold text-black">Addiction</span>
+					<span class="text-sm text-gray-600">Recovery support and tracking application</span>
+					<span class="text-xs text-gray-400 md:text-right">React Native</span>
+				</div>
+				<div class="grid grid-cols-1 md:grid-cols-[150px_1fr_120px] gap-1 md:gap-8 py-5 border-b border-gray-200">
+					<span class="font-semibold text-black">GoodChoice</span>
+					<span class="text-sm text-gray-600">Decision-making assistance tool</span>
+					<span class="text-xs text-gray-400 md:text-right">Full-stack</span>
+				</div>
+				<div class="grid grid-cols-1 md:grid-cols-[150px_1fr_120px] gap-1 md:gap-8 py-5 border-b border-gray-200">
+					<span class="font-semibold text-black">EDT</span>
+					<span class="text-sm text-gray-600">Educational development tracker</span>
+					<span class="text-xs text-gray-400 md:text-right">Django, React</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Videos -->
+	<section class="bg-gray-50 px-8 py-20">
+		<div class="max-w-6xl mx-auto">
+			<h2 class="font-serif text-3xl font-semibold mb-10 tracking-tight">Latest Videos</h2>
+			<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+				<a href="https://www.youtube.com/watch?v=D_VCJn_0Ook" target="_blank" rel="noreferrer" class="flex flex-col gap-2 p-6 bg-white border border-gray-200 rounded-lg hover:border-gray-400 transition-colors">
+					<span class="font-semibold text-sm text-black">Django & React Native: Ploti App 16</span>
+					<span class="text-xs text-gray-400">Tutorial</span>
+				</a>
+				<a href="https://www.youtube.com/playlist?list=PLP1DxoSC17LZTTzgfq0Dimkm6eWJQC9ki" target="_blank" rel="noreferrer" class="flex flex-col gap-2 p-6 bg-white border border-gray-200 rounded-lg hover:border-gray-400 transition-colors">
+					<span class="font-semibold text-sm text-black">Pytest, Django & DRF</span>
+					<span class="text-xs text-gray-400">Playlist</span>
+				</a>
+				<a href="https://www.youtube.com/playlist?list=PLP1DxoSC17LaBjsqv_9TfxjP8Q44J5mOx" target="_blank" rel="noreferrer" class="flex flex-col gap-2 p-6 bg-white border border-gray-200 rounded-lg hover:border-gray-400 transition-colors">
+					<span class="font-semibold text-sm text-black">M-Pesa Daraja API</span>
+					<span class="text-xs text-gray-400">Playlist</span>
+				</a>
+			</div>
+			<a href="https://www.youtube.com/channel/UCmGMFufi9groUEokVw9XGJg" target="_blank" rel="noreferrer" class="text-sm font-medium text-gray-600 hover:text-black transition-colors">View all videos →</a>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="px-8 py-12 border-t border-gray-200">
+		<div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-6">
+			<div class="flex flex-wrap justify-center gap-6">
+				<a href="https://geoffreynyaga.com" target="_blank" rel="noreferrer" class="text-sm text-gray-500 hover:text-black transition-colors">Website</a>
+				<a href="https://github.com/geoffreynyaga" target="_blank" rel="noreferrer" class="text-sm text-gray-500 hover:text-black transition-colors">GitHub</a>
+				<a href="https://www.youtube.com/channel/UCmGMFufi9groUEokVw9XGJg" target="_blank" rel="noreferrer" class="text-sm text-gray-500 hover:text-black transition-colors">YouTube</a>
+				<a href="https://linkedin.com/in/geoffreynyaga" target="_blank" rel="noreferrer" class="text-sm text-gray-500 hover:text-black transition-colors">LinkedIn</a>
+				<a href="https://twitter.com/geoffreynyaga" target="_blank" rel="noreferrer" class="text-sm text-gray-500 hover:text-black transition-colors">Twitter</a>
+				<a href="https://instagram.com/nyagageoffrey" target="_blank" rel="noreferrer" class="text-sm text-gray-500 hover:text-black transition-colors">Instagram</a>
+			</div>
+			<p class="text-sm text-gray-400">Geoffrey Nyaga</p>
+		</div>
+	</footer>
 </main>
-
-<style>
-	.page {
-		min-height: 100vh;
-		display: grid;
-		place-items: center;
-		padding: 2rem 1rem;
-		font-family: Inter, Roboto, 'Helvetica Neue', Arial, sans-serif;
-		background: #f8fafc;
-		color: #0f172a;
-	}
-
-	.card {
-		width: min(900px, 100%);
-		background: #ffffff;
-		border: 1px solid #e2e8f0;
-		border-radius: 16px;
-		padding: 2rem;
-		box-sizing: border-box;
-	}
-
-	.eyebrow {
-		margin: 0;
-		font-size: 0.9rem;
-		font-weight: 600;
-		color: #475569;
-	}
-
-	h1 {
-		margin: 0.25rem 0 0.65rem;
-		font-size: clamp(1.8rem, 4vw, 2.4rem);
-	}
-
-	.intro {
-		margin: 0;
-		font-size: 1.05rem;
-		line-height: 1.65;
-		color: #334155;
-	}
-
-	.section {
-		margin-top: 1.2rem;
-	}
-
-	.grid {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 1rem 1.25rem;
-		margin-top: 1rem;
-	}
-
-	h2 {
-		font-size: 1rem;
-		margin: 0 0 0.5rem;
-		color: #0f172a;
-	}
-
-	ul {
-		margin: 0;
-		padding-left: 1.1rem;
-		color: #334155;
-		line-height: 1.6;
-	}
-
-	.links {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 0.8rem;
-		margin-top: 1.4rem;
-	}
-
-	.links a {
-		display: inline-block;
-		padding: 0.45rem 0.75rem;
-		border: 1px solid #cbd5e1;
-		border-radius: 8px;
-		text-decoration: none;
-		color: #0f172a;
-		font-size: 0.95rem;
-	}
-
-	.links a:hover {
-		border-color: #0f172a;
-	}
-
-	@media (max-width: 640px) {
-		.card {
-			padding: 1.25rem;
-		}
-
-		.grid {
-			grid-template-columns: 1fr;
-		}
-	}
-</style>
